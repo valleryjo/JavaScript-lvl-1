@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background: #f8f8f8;
+}
+header {
+    height: 100px;
+}
+.container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+}
+.menu li {
+    list-style-type: none;
+    height: 30px;
+}
+.menu li a {
+    line-height: 22px;
+    color: dimgrey;
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+}
+.menu li a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+.menu li a:active {
+    text-decoration: line-through;
+    color: lightpink;
+.footer {
+    background-color: #f7f7f7;
+    height: 384px;
+    width: 1377px
+}
